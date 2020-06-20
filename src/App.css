@@ -1,0 +1,211 @@
+body {
+  width: 100%;
+  min-width: 1000px;
+}
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+#one:hover ~ #one {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+#two:hover ~ #two {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+#three:hover ~ #three {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+#four:hover ~ #four {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+#five:hover ~ #five {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+#six:hover ~ #six {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+#seven:hover ~ #seven {
+
+  background-color: rgba(230, 171, 171, 0.95);
+
+
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+  
+
+.grid {
+  
+  margin-top: 20px;
+
+}
+
+
+
+.emptyCell {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid black;
+  margin-left: -1px;
+  margin-bottom: -4px;
+  display: inline-flex ;
+}
+.emptyCellPVP {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid black;
+  margin-left: -1px;
+  margin-bottom: -4px;
+  display: inline-flex ;
+}
+.emptyCell:hover {
+  background-color: rgba(230, 171, 171, 0.95);
+}
+.center {
+  
+  margin: auto;
+  margin-top: 100px;
+  
+}
+.playerOneCell {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 2px solid black;
+  margin-left: -1px;
+  margin-bottom: -4px;
+  display: inline-flex ;
+
+
+}
+.playerTwoCell {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 2px solid black;
+  margin-left: -1px;
+  margin-bottom: -4px;
+  display: inline-flex ;
+}
+.message {
+  height: 100px;
+  background-color: #950740;
+  text-align: center;
+  font-size: 50px;
+}
+.button {
+  height: 200px;
+  width: 50%;
+  margin-top: 1px;
+  background-color: #6F2232;
+  color:white;
+  
+}
+.header {
+  background-color:#4E4E50 ;
+  height: 280px;
+  text-align: center;
+  font-size: 200px;
+  margin-top: 0;
+  color:white;
+  border:3px solid black;
+  
+}
+.MenuBody{
+  background-color: #1A1A1D;
+  height: 1000px;
+  
+}
+.title {
+  background-color: #6F2232;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  border-bottom:1px solid black;
+  border-right:5px solid black;
+  border-left:5px solid black;
+}
+.all {
+  background-color: #1A1A1D;
+}
+.headerPVP {
+  background-color:#4E4E50 ;
+  height: 200px;
+  text-align: center;
+  font-size: 150px;
+  margin-top: 0;
+  color:white;
+  display: flex;
+  
+}
+.buttonsBack {
+  height: 200px;
+  width: 20%;
+justify-content: left;
+  background-color: #6F2232;
+  color:white;
+  
+}
+.leftover {
+  height: 300px;
+  background-color: #4E4E50;
+}
+.justtext1 {
+  padding-top: 50px;
+  margin-left: 24%;
+}
+.justtext2 {
+  padding-top: 20px;
+  margin-left: 16%;
+}
+.newGameButton {
+  display: inline-flex;
+  
+}
+.buttononly {
+  margin-top: 20%;
+  padding-right: 300px;
+padding-left: 20px;
+}
+
+.buttononly1 {
+background-color:#6F2232 ;
+color: white;
+width: 280px;
+height: 200px;
+}
